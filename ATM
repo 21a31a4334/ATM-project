@@ -27,7 +27,7 @@ def deposit(i):
         print("invalid pin")
         print("end")
     else:
-        print("enter the amount to be depodited:")
+        print("enter the amount to be deposited:")
         money=int(input())
         bal[i]+=money
         print("The cash is deposited:",bal[i])
